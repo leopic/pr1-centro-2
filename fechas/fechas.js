@@ -32,7 +32,7 @@ console.log('Hora actual:', horaCompleta);
 var horaFechaCompleta = fechaCompleta + ' ' + horaCompleta;
 console.log('Hora/Fecha completa:', horaFechaCompleta);
 
-// Algunos valores no regresan los ceros alrededor de las fechas
+// // Algunos valores no regresan los ceros alrededor de las fechas
 function asegurarDobleDigito(valor) {
     if (valor < 10) {
         return  '0' + valor;

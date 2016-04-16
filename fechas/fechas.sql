@@ -14,6 +14,8 @@ DESC ejemplo_fechas;
 # Fecha completa
 INSERT INTO ejemplo_fechas (fecha) VALUES ('1995-06-29 14:14:14');
 
+SELECT * FROM ejemplo_fechas;
+
 # Fechas parciales
 # Invalid DATE, DATETIME, or TIMESTAMP values are converted to the “zero” value of the appropriate type
 # ('0000-00-00' or '0000-00-00 00:00:00').
@@ -33,4 +35,4 @@ SELECT * FROM ejemplo_fechas WHERE fecha > NOW();
 # Registros del último año
 SELECT * FROM ejemplo_fechas WHERE fecha BETWEEN (NOW() - INTERVAL 1 YEAR) AND NOW();
 
-#   TRUNCATE ejemplo_fechas;
+  TRUNCATE ejemplo_fechas;

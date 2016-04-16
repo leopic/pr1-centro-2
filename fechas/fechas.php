@@ -14,12 +14,15 @@ $hoy = new DateTime();
 //print_r($hoy);
 
 $fechaEnEl95 = new DateTime('1995-06-29 14:14:14');
-print_r($fechaEnEl95);
+//print_r($fechaEnEl95);
 
 $fechaEnEl2005 = new DateTime('2005-06-29 14:14');
+//print_r($fechaEnEl2005);
+
 // Inconsistente con MySQL =/
 //$fechaEnEl2015 = new DateTime('2015-06-29 14');
 $fechaEnEl2025 = new DateTime('2005-06-29');
+//print_r($fechaEnEl2025);
 
 $fechas = [$fechaEnEl95, $fechaEnEl2005, $fechaEnEl2025];
 
